@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pigvisual",
+  "version": "${version}",
+  "name": "Pig Visual",
+  "description": "FPS counter + watermark HUD for Minecraft 1.21.4",
+  "authors": ["PigVisual"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.pigvisual.client.PigVisualClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
